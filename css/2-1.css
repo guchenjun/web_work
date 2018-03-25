@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-23 08:17:56
+ * @version $Id$
+ */
+body {
+	background-color: #333;
+}
+
+.container{
+	background-color: #fff; 
+	width: 860px;
+	border-collapse: collapse;
+	margin-left: 30px;
+}
+
+.container tr{
+	height: 30px;
+}
+
+.c-first {
+	width: 10px;
+}
+
+
+.container tr:nth-child(2n+1){
+	background-color: #bbb;
+}
+
+.container tr:first-child{
+	background-color: #009933;
+	color: #fff;
+	font-weight: bold;
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-25 18:23:48
+ * @version $Id$
+ */
+.container3 {
+	background-color: #fff;
+	width: 390px;
+	float: left;
+	margin:30px;
+}
+
+.container3 .calendar{
+	background-color: #E66B6B;
+	padding-left: 30px;
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+.container3 h1{
+	font-size: 60px;
+	margin: auto 0px;
+	color: #fff;
+}
+
+.container3 h3{
+	font-size: 35px;
+	margin:0;
+	color: #fff;
+}
+
+.container3 .date{
+	margin: 30px;
+
+}
+
+.container3 .date .week{
+	color: #E66B6B;
+}
+
+.container3 .T_ca{
+	text-align: center;
+	color: #565656;
+}
+
+.container3 .T_ca .last_month_day{
+	color: #D1CECD;
+}
+
+.container3 .T_ca .today{
+	color: #E66B6B;
+}
