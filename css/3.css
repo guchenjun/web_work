@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-08 08:29:48
+ * @version $Id$
+ */
+.container{
+	width: 400px;
+	height: 750px;
+	float: left;
+}
+
+.top {
+	border:1px solid #eee;
+}
+
+.top .header  {
+	height: 35px;
+	background-color: #eee;
+	padding: 10px;
+}
+
+.top .header > span{
+	margin: 15px;
+	font-size: 20px;
+}
+
+#text1,#text2{
+	margin: 10px;
+	height: 25px;
+	border:1px solid;
+}
+
+.login {
+	position: relative;
+	border:1px solid #eee;
+}
+
+.login .square {
+	margin: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+
+}
+
+.notice #text3 {
+	width: 250px;
+	margin: 10px;
+	height: 25px;
+	border:1px solid;
+	position: absolute;
+	top: 10px;
+	left: 120px;
+}
+
+.notice #text4 {
+	width: 250px;
+	margin: 10px;
+	height: 25px;
+	border:1px solid;
+	position: absolute;
+	top: 50px;
+	left: 120px;
+}
+
+.login .button_set {
+	height: 50px;
+	margin-top: 20px;
+}
+.login .button_set > span {
+	background-color: red;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+}
+
+.login .button_set #loginBtn{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.login .button_set #regBtn{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.login .button_set #shopBtn{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.search {
+	border:1px solid #eee;
+}
+.search #text5{
+	margin: 20px;
+	height: 25px;
+	border:1px solid;
+}
+
+
+.section {
+	border:1px solid #eee;
+	border-top: none;
+}
+
+.section table,tr,td{
+	border:1px solid #eee;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.section .sectionTbl #rect{
+	background-color: red;
+	width: 80px;
+	height: 120px;
+	margin: 30px 35px 10px 35px;
+}
+
+.section .sectionTbl #telFare {
+	margin-bottom: 15px;
+}
+
+.section .sectionTbl .square {
+	width: 55px;
+	height: 55px;
+	background-color: red;
+	margin: 10px 11px 5px 11px;
+}
+
+.section .sectionTbl .word {
+	margin-bottom: 15px;
+}
+
+
+.hot {
+	position: relative;
+	left: 450px;
+}
+
+.hot .triangle {
+	border-top: 60px solid red; 
+	border-right: 60px solid transparent; 
+	position: absolute;
+	z-index: 1;
+}
+
+.hot .triangle_2 {
+	border-top: 25px solid #eee; 
+	border-right: 25px solid transparent; 
+	position: absolute;
+	z-index: 2;
+}
+
+.hot .content {
+	position: absolute;
+	top: 0px;
+	background-color: #eee;
+	width: 150px;
+	height: 150px;
+}

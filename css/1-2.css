@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-23 09:06:09
+ * @version $Id$
+ */
+.container2 {
+	background-color: #fff;
+	width: 400px;
+	padding-left: 10px;  /*内间距*/
+	float: left;
+	margin: 30px;
+}
+
+.container2 h1{
+	padding-top: 20px;
+}
+.container2 p{
+	margin: 5px auto;
+}
+
+.container2 .thin_line{
+	background-color: #333;
+	height: 2px;
+}
+
+.container2 .center_bold_line{
+	background-color: #333;
+	height: 13px;
+	margin-right: 10px;  /*相对div的外框距*/
+}
+
+.container2 .left_bold{
+	font-weight: bold;
+}
+
+.container2 .right_normal{
+	float: right;
+}
+
+.container2 .normal_line{
+	background-color: #333;
+	height: 6px;
+}
+
+.container2 p.right_bold{
+	text-align: right;
+	font-weight: bold;
+}
+
+.container2 span.right_bold{
+	font-weight: bold;
+	float: right;
+}
+
+.container2 .indent_content{
+	margin-left: 20px;
+}
+
+.container2 .normal_bold_line{
+	background-color: #333;
+	height: 13px;
+}
+
+.container2 .ingredient_1{
+	width: 380px;
+}
+
+.container2 .ingredient_2{
+	width: 380px;
+}
+
+.thin_light_line{
+	background-color: grey;
+	height: 2px;
+}
+
+.container2 .center_content{
+	text-align: center;
+}
