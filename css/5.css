@@ -1,0 +1,139 @@
+.cnt {
+	width: 760px;
+	border: #CDD3F5 solid 20px;
+}
+
+.header {
+	display: flex;
+	border-bottom: #CDD3F5 solid 20px;
+}
+.nav-mn {
+	width: 80px;
+	height: 80px;
+	background-color: #CDD3F5;
+	margin: 20px;
+}
+
+.nav-hidden {
+	width: 120px;
+	height: 80px;
+	visibility: hidden;
+	margin: 20px;
+}
+
+/*main-part*/
+.main {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-left {
+	width: 240px;
+	height: 400px;
+	display: flex;
+	flex-flow: row wrap;
+	padding: 20px 20px 0px;
+}
+
+.big-box {
+	width: 200px;
+	height: 300px;
+	/*margin: 20px;*/
+	background-color: #CDD3F5;
+}
+
+.s-box {
+	width: 50px;
+	height: 50px;
+	/*margin: 12.5px;*/
+	background-color: #CDD3F5;
+	margin-right: 25px;
+}
+
+.s-box:last-child {
+	margin-right: 0px;
+}
+
+
+.main-right > .para {
+	width: 480px;
+	height: 40px;
+	background-color: #CDD3F5;
+	margin: 15px;
+}
+
+.main-right > .para:first-child {
+	margin-top: 20px;
+}
+
+/*part_2*/
+.cnt2 {
+	width: 390px;
+	height: 370px;
+	border: 1px solid;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.cnt2 > .content {
+	height: 300px;
+	background-color: #FFFFEB;
+}
+.cnt2 > .footer {
+	background-color: #FFE6F4;
+	
+}
+
+.footer > .para {
+	background-color: #fff;
+	margin: 10px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	padding: 0px 10px;
+}
+
+.real-price,.spec-info {
+	color: #F72D58;
+}
+
+.sell {
+	height: 55px !important;
+	padding: 10px;
+}
+.real-price {
+	font-size: 24px;
+}
+
+.ori-price, .sold-count {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	font-weight: normal;
+	align-self: flex-end;
+}
+
+.ori-price:after {
+	display: inline-block;
+	content: "";
+	width: 30px;
+	height: 30px;
+	align-self: flex-end;
+}
+
+/*part-3*/
+.cnt3 {
+	display: flex;
+	width: 1250px;
+	margin-top: 20px;
+	border: 1px solid;
+	flex-wrap: wrap;
+	padding: 10px;
+	background-color: #ddd;
+}
+
+.cnt3 > .cnt2 {
+	margin: 10px;
+}
