@@ -88,9 +88,10 @@
 .footer > .para {
 	background-color: #fff;
 	margin: 10px;
-	height: 35px;
-	display: flex;
-	align-items: center;
+	height: 20px;
+	/*display: flex;
+	align-items: center;*/
+	font-size: 14px;
 	font-weight: bold;
 	padding: 0px 10px;
 }
@@ -100,27 +101,24 @@
 }
 
 .sell {
-	height: 55px !important;
+	height: 30px !important;
 	padding: 10px;
 }
 .real-price {
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .ori-price, .sold-count {
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-bottom: 10px;
 	font-weight: normal;
-	align-self: flex-end;
 }
 
-.ori-price:after {
-	display: inline-block;
-	content: "";
-	width: 30px;
-	height: 30px;
-	align-self: flex-end;
+
+.sold-count {
+	margin-top: 7px;
+	float: right;
+	right: 10px;
 }
 
 /*part-3*/
@@ -128,12 +126,51 @@
 	display: flex;
 	width: 1250px;
 	margin-top: 20px;
-	border: 1px solid;
+	/*border: 1px solid;*/
 	flex-wrap: wrap;
 	padding: 10px;
 	background-color: #ddd;
 }
 
+em {
+	font-style: normal;
+}
+
 .cnt3 > .cnt2 {
 	margin: 10px;
+}
+
+.cnt3 .content {
+	/*height: 400px;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cnt3 .cnt2 {
+	border: none;
+}
+
+.cnt3 .footer {
+	background-color: #fff;
+}
+
+.cnt3 .real-price {
+	font-size: 30px;
+}
+
+.cnt3 .sold-count {
+	margin-top: 17px;
+}
+
+.cnt3 .ori-price,.simple-info {
+	color: #B8B7B1;
+}
+
+.symbol {
+	font-size: 18px !important;
+}
+
+.red-num {
+	font-weight: bold;
+	color: #F72D58;
 }
