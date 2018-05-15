@@ -1,0 +1,227 @@
+
+/*去掉bootstrap的button点击后box-shadow效果*/
+.btn-secondary:not(:disabled):not(.disabled):active:focus, 
+.show>.btn-secondary.dropdown-toggle:focus,
+.btn.focus, .btn:focus {
+	box-shadow: none;
+}
+
+.nav {
+	background-color: #00C2AF;
+}
+
+.nav-search:after {
+	display: inline-block;
+	content: "";
+	/*clear: both;*/
+	height: 36px;
+}
+
+/*加入iconfont*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../source/Source-9/iconfont.eot');
+  src: url('../source/Source-9/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../source/Source-9/iconfont.woff') format('woff'),
+  url('../source/Source-9/iconfont.ttf') format('truetype'),
+  url('../source/Source-9/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*内容部分*/
+.circle {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+.divider {
+	height: 10px;
+	background-color: #F1EFED;
+	border-top: 1px solid #E9E4DD;
+	border-bottom: 1px solid #E9E4DD;
+}
+
+.goods-list {
+	height: 90px;
+}
+
+.s-divider {
+	height: 1px;
+	background-color: #EEEAE4;
+}
+
+.goods-sell-info {
+	height: 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.goods {
+	display: flex;
+	align-items: center;
+}
+.goods-img {
+	width: 90px;
+	height: 80px;
+	padding: 0px;
+	background-color: #666;
+}
+
+.triangle {
+	border-top: 50px solid #00C2AF;
+	border-right: 50px solid transparent;
+	/*position: absolute;*/
+	width: 0px;
+	height: 0px;
+}
+
+.triangle-2 {
+	border-top: 20px solid #666;
+	border-right: 20px solid transparent;
+	position: relative;
+	top: -50px;
+}
+
+.myg {
+	color: #fff;
+	position: absolute;
+	transform: rotate(-45deg);
+	left: -2px;
+	top: 8px;
+	font-size: 13px;
+}
+
+.flash-n1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flash-n2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flash-goods-img {
+	width: 70px;
+	height: 70px;
+	background-color: #666;
+}
+
+.flash-s-img {
+	width: 30px;
+	height: 30px;
+	background-color: #666;
+	margin: 0px auto;
+}
+
+.flash-title {
+	width: 70px;
+	font-weight: bold;
+}
+
+.bg-black {
+	padding: 0px 3px;
+	background-color: #4B4B4B;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.daogou-n1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70px;
+	border: 1px solid #E6E0D9;
+}
+
+.daogou-goods-title {
+	font-weight: bold;
+}
+
+.daogou-goods-info {
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.daogou-goods-img {
+	width: 55px;
+	height: 55px;
+	background-color: #666;
+}
+
+.grey {
+	color: lightgrey;
+	font-size: 13px;
+}
+
+.light-green {
+	color: #09C8B6;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.s-light-green {
+	color: #09C8B6;
+	font-size: 13px;
+}
+
+.goods-price {
+	position: absolute;
+	bottom: 5px;
+}
+
+.goods-title {
+	color: #6A6A6A;
+}
+
+.flash-sell {
+	padding: 5px;
+}
+.dyh {
+	border: 1px solid #FFA214;
+	border-radius: 3px;
+	color: #FFA214;
+	font-size: 12px;
+	padding: 2px;
+}
+
+.goods-sell-count {
+	height: 90px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 0px;
+}
+.sold-out {
+	font-size: 13px;
+	color: #6D6D6D;
+	position: absolute;
+	bottom: 5px;
+}
+
+.footer {
+	background-color: #8FC6EA;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.footer-info,.footer-link {
+	color: #04B3D0;
+	font-weight: bold;
+}
